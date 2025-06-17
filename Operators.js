@@ -37,16 +37,50 @@
 // }
 
 ///logical
-let n1 = 10;
-let n2 = 40;
-let n3 = 10;
-let n4 = 40;
+// let n1 = 10;
+// let n2 = 40;
+// let n3 = 10;
+// let n4 = 40;
 
-let resultOflogicalAND =( n1 < n4) && (n2 == n3);
-console.log(`The result of using  Logical AND : ${resultOflogicalAND}`);
+// let resultOflogicalAND =( n1 < n4) && (n2 == n3);
+// console.log(`The result of using  Logical AND : ${resultOflogicalAND}`);
 
-let resultOflogicalOR = (n1 < n4 )||( n2 == n3);
-console.log(`The result of using  Logical OR : ${resultOflogicalOR}`);
+// let resultOflogicalOR = (n1 < n4 )||( n2 == n3);
+// console.log(`The result of using  Logical OR : ${resultOflogicalOR}`);
 
-let resultOflogicalNOT = !(resultOflogicalAND);
-console.log(`The result of using  Logical NOT : ${resultOflogicalNOT}`);
+// let resultOflogicalNOT = !(resultOflogicalAND);
+// console.log(`The result of using  Logical NOT : ${resultOflogicalNOT}`);
+
+//Ternary Operators  srdeang condition
+
+let result = 30 >= 50 ? 'pass': 'fail'
+console.log(result);
+
+const Animal = {
+    species : 'mammal',
+    name: 'dog',
+    legs: 4
+
+};
+const resultOfAnimal = Animal.legs == 4 ? Animal.name : 'It is not Animal.';
+
+console.log(`The result of Animal type : ${resultOfAnimal}`);
+
+let x =3;
+//let resultX = (x >= 0)? (x==0)? 'Zero' : 'Positive' : 'Negative';
+
+//console.log(resultX)
+
+//condition
+
+if ( x >= 0){
+    if(x == 0){
+        console.log('Zero');
+    }
+    else{
+        console.log('Positive')
+    }
+}
+else{
+    console.log('Negative')
+}

@@ -65,3 +65,22 @@ const Animal = {
 const resultOfAnimal = Animal.legs == 4 ? Animal.name : 'It is not Animal.';
 
 console.log(`The result of Animal type : ${resultOfAnimal}`);
+
+let x =3;
+//let resultX = (x >= 0)? (x==0)? 'Zero' : 'Positive' : 'Negative';
+
+//console.log(resultX)
+
+//condition
+
+if ( x >= 0){
+    if(x == 0){
+        console.log('Zero');
+    }
+    else{
+        console.log('Positive')
+    }
+}
+else{
+    console.log('Negative')
+}
